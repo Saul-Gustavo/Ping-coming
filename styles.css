@@ -117,11 +117,12 @@ body {
 
 .imagen-content .img-dash {
     width: 100%;
-    max-width: 650px;
+    max-width: 680px;
 }
 
 .footer {
-    padding: 2em 0em;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 
 .redes {
