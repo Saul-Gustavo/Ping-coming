@@ -1,6 +1,7 @@
 const submitBtn = document.querySelector('.submit')
 
-submitBtn.addEventListener('click', () => {
+submitBtn.addEventListener('click', (e) => {
+    e.preventDefault();
     const mensaje = document.querySelector('.mensaje');
     const emailInput = document.querySelector('.input-email');
     let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
